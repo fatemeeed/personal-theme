@@ -1,0 +1,35 @@
+@font-face {
+    font-family: 'Vazir';
+    src: url('../font/Vazir.eot') format('eot'),
+        url('../font/Vazir.ttf') format('ttf'),
+        url('../font/Vazir.woff') format('woff');
+}
+body{
+    font-family: 'Vazir';
+    direction: rtl;
+    background-color: rgb(236, 234, 234);
+}
+.dropdown-menu.show{
+    text-align: right;
+}
+.skill-item,.navbar-brand{
+    font-family: cursive;
+}
+
+*{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+/* about */
+.about{
+    padding: 30px;
+}
+.about .about-link ul{
+    display: flex;
+}
+.about .about-link ul li{
+    padding: 0 5px;
+}
